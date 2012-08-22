@@ -4,16 +4,21 @@
   <parent>
         <artifactId>randi3</artifactId>
         <groupId>org.randi3</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.9-SNAPSHOT</version>
     </parent>
+    <name>RANDI2 - simulation module</name>
+    <description>Simulation module for RANDI2</description>
+    <url>http://randi2.org</url>
 
-  <artifactId>randi3-simulation</artifactId>
-  <version>0.1-SNAPSHOT</version>
-  <name>${project.artifactId}</name>
-  <description>My wonderfull scala app</description>
-  <inceptionYear>2010</inceptionYear>
- 
-  <dependencies>
+    <licenses>
+        <license>
+            <name>GNU GENERAL PUBLIC LICENSE Version 3</name>
+            <url>http://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+        </license>
+    </licenses>
+
+
+    <dependencies>
   	<dependency>
 			<groupId>org.randi3</groupId>
 			<artifactId>randi3-core</artifactId>
