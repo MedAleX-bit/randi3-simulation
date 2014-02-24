@@ -4,9 +4,10 @@
   <parent>
         <artifactId>randi3</artifactId>
         <groupId>org.randi3</groupId>
-        <version>0.9-SNAPSHOT</version>
+        <version>0.9.4</version>
     </parent>
     <name>RANDI2 - simulation module</name>
+    <artifactId>randi3-simulation</artifactId>
     <description>Simulation module for RANDI2</description>
     <url>http://randi2.org</url>
 
@@ -22,17 +23,25 @@
   	<dependency>
 			<groupId>org.randi3</groupId>
 			<artifactId>randi3-core</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.9.4</version>
 		</dependency>
-      <dependency>
-          <groupId>org.randi3</groupId>
-          <artifactId>randi3-method-adaptiveBayesian</artifactId>
-          <version>0.1-SNAPSHOT</version>
-      </dependency>
+		     <dependency>
+            <groupId>org.randi3</groupId>
+            <artifactId>randi3-core</artifactId>
+            <version>0.9.4</version>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.randi3</groupId>
+            <artifactId>randi3-method-complete</artifactId>
+            <version>0.9.4</version>
+            <scope>test</scope>
+        </dependency>
       <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-math3</artifactId>
-          <version>3.0</version>
+          <version>3.2</version>
       </dependency>
   </dependencies>
 
